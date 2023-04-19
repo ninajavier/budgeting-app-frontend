@@ -16,7 +16,7 @@
     padding: 10px;
   }
   
-  th {
+  h2 {
     background-color: #d1c7b7;
     font-weight: bold;
   }
@@ -25,7 +25,7 @@
     background-color: #e8dfd0;
   }
   
-  thead th {
+  thead h2 {
     font-size: 24px;
     color: #453e3e;
   }

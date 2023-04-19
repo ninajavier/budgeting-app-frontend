@@ -29,14 +29,14 @@ export default function Transactions() {
 
   calculateAccountTotal();
 
-  let color = "#000000"; 
+  let color = "#000000";
 
   if (bankAccountTotal > 100) {
-    color = "#80b380"; 
+    color = "#80b380";
   } else if (bankAccountTotal >= 0) {
-    color = "#b3b380"; 
+    color = "#b3b380";
   } else {
-    color = "#b38080"; 
+    color = "#b38080";
   }
 
   return (
@@ -44,10 +44,10 @@ export default function Transactions() {
       <section>
         <table>
           <thead>
-          <th>
+            <h2>
               Bank Account Total:{" "}
               <span style={{ color: color }}>{bankAccountTotal}</span>
-            </th>
+            </h2>
           </thead>
           <tbody>
             {transactions.map((transaction, index) => {

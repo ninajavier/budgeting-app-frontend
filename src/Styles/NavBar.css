@@ -18,6 +18,7 @@ nav {
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     transition: background-color 0.2s ease-in-out;
+    background-color:rgb(238, 236, 221)
   }
   
   a:hover {

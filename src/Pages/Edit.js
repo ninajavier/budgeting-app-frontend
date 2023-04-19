@@ -1,12 +1,10 @@
-import React from 'react';
+import TransactionEditForm from "../Components/TransactionEditForm";
 
-
-function Edit() {
+export default function Edit() {
     return (
         <div>
-            
+            <TransactionEditForm />
         </div>
     );
 }
 
-export default Edit;

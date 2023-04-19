@@ -19,14 +19,14 @@ export default function TransactionDetails() {
           })
       }, [index, navigate]);
 
-      function handleDelete() {
-        axios 
-        .delete(`${API}/transactions/${index}`)
-        .then(() => {
-            navigate('/transactions')
-        })
+      const handleDelete = () => {
+        axios
+          .delete(`${API}/transactions/${index}`)
+          .then(() => {
+            navigate(`/transactions`)
+          })
         .catch((e) => console.error(e))
-      };
+       };
 
 
     return (

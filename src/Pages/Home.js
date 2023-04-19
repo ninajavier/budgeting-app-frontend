@@ -1,9 +1,13 @@
-import NavBar from "../Components/NavBar";
+import { Link,  } from "react-router-dom";
 
-export default function Home(props) {
+
+
+export default function Home() {
     return (
         <div>
-            <NavBar />
+           <Link to={`/transactions`}>
+            <button>Check Your Transactions</button>
+          </Link>
         </div>
     );
 }

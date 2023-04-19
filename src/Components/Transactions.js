@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Transaction from "./Transaction";
 import axios from "axios";
+import "../Styles/Transactions.css";
 const API = process.env.REACT_APP_API_URL;
 
 export default function Transactions() {
@@ -28,14 +29,14 @@ export default function Transactions() {
 
   calculateAccountTotal();
 
-  let color = "#000000"; // default color
+  let color = "#000000"; 
 
   if (bankAccountTotal > 100) {
-    color = "#00ff00"; // greenish color
+    color = "#80b380"; 
   } else if (bankAccountTotal >= 0) {
-    color = "#ffff00"; // yellowish color
+    color = "#b3b380"; 
   } else {
-    color = "#ff0000"; // reddish color
+    color = "#b38080"; 
   }
 
   return (

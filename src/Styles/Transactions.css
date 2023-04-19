@@ -1,0 +1,38 @@
+.Transactions {
+    background-color: #f2e8d9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #d1c7b7;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e8dfd0;
+  }
+  
+  thead th {
+    font-size: 24px;
+    color: #453e3e;
+  }
+  
+  span {
+    font-size: 24px;
+  }
+ 
+  
+  

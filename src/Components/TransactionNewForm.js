@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import "../Styles/Form.css";
 
 const API = process.env.REACT_APP_API_URL;
 
